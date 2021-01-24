@@ -1,0 +1,30 @@
+{
+	// Olası öznitelikler hakkında bilgi edinmek için IntelliSense kullanın.
+	// Mevcut özniteliklerin açıklamalarını görüntülemek için üzerine gelin.
+	// Daha fazla bilgi için şu adresi ziyaret edin: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "gcc - Etkin dosyayı derle ve dosyada hata ayıkla",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${fileDirname}/comparator",
+			"miDebuggerServerAddress": "localhost:1234",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"setupCommands": [
+				{
+					"description": "gdb için düzgün yazdırmayı etkinleştir",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				}
+			],
+			"preLaunchTask": "C/C++: gcc build file",
+			"miDebuggerPath": "/usr/bin/gdb"
+		}
+	]
+}
