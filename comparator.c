@@ -374,11 +374,11 @@ void colorant()
 	c_page.end_color = j + 1;
 
 	//asm de hareket ederken source de hareket etsin
-	c_page.cursor->y = c_page.end_color;
-	if (c_page.cursor->y < c_page.screen_y)
-		c_page.screen_y -= 1;
-	else if (c_page.cursor->y >= c_page.screen_y + c_page.max_y)
-		c_page.screen_y += 1;
+	// c_page.cursor->y = c_page.start_color;
+	// if (c_page.cursor->y < c_page.screen_y)
+		// c_page.screen_y -= 1;
+	// else if (c_page.cursor->y >= c_page.screen_y + c_page.max_y)
+		// c_page.screen_y += 1;
 
 	asm_page.start_color = k;
 	asm_page.end_color = i;
