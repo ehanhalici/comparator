@@ -1,5 +1,5 @@
 # COMPARATOR
-This project  allows comparison of the C code with the assembly version. This program uses ncurses and is extremely small. Use [Compiler Explorer](https://github.com/compiler-explorer/compiler-explorer) if you want more language support and a more professional application 
+This project  allows comparison of the C code with the assembly version. This program uses ncurses and is extremely small. 
 
 ### USAGE
 1 - Write your c code on the left side<br>
