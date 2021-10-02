@@ -699,7 +699,7 @@ int process_key(unsigned int ch, int input_device, int source_code)
 		}
 		break;
 	}
-	case ALT_BACKSPACE:
+	case KEY_BACKSPACE:
 	{
 		if (source_code == asm_code)
 			break;
@@ -1028,7 +1028,7 @@ void disassembly()
 		return;
 	}
 	//else
-	system("objdump --no-addresses --no-show-raw-insn -S  -M intel -d data/c_code.o >> data/asm_code.asm");
+	system("objdump  --no-show-raw-insn -S  -M intel -d data/c_code.o >> data/asm_code.asm");
 	system("rm data/c_code.o");
 
 	destroy(asm_code);
