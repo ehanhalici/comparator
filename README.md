@@ -40,7 +40,6 @@ The project includes a minimal `Makefile` for immediate compilation without manu
 
 Once compiled, an executable named `comparator` is generated. You can launch it directly:
 
-## USAGE
 1 - Write your c code on the left side
 2 - Press ctrl+s, assembly or error printout now needs to be generated<br>
 3 - Correct and try again if there is an error<br>
