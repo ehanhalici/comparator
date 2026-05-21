@@ -31,9 +31,9 @@ The project includes a minimal `Makefile` for immediate compilation without manu
 
 1. Open your terminal in the project directory.
 2. Compile the application by running:
-   ```bash
-   make
 
+```bash
+   make
 ```
 
 ## Usage
